@@ -21,28 +21,28 @@ The focus of this project is entirely on frontend craftsmanship using React fund
 ## Component Breakdown
 
 1.App
-  Root component of the application
-  Holds the notes state and loading state
-  Manages data flow between child components
+  Root component of the application,
+  Holds the notes state and loading state,
+  Manages data flow between child components.
 
 2.NoteForm
-  Handles creation of new notes
-  Performs validation for the required title field
-  Displays validation errors below the input
-  Clears the form on successful submission
+  Handles creation of new notes,
+  Performs validation for the required title field,
+  Displays validation errors below the input,
+  Clears the form on successful submission.
 
 3.NoteList
-  Renders a list of all created notes
+  Renders a list of all created notes.
 
 4.NoteItem
-  Displays an individual note’s title and description
-  Provides a delete button to remove the note
+  Displays an individual note’s title and description,
+  Provides a delete button to remove the note.
 
 5.Loader
-  Displays a loading indicator during simulated data loading
+  Displays a loading indicator during simulated data loading.
 
 6.EmptyState
-  Displays a friendly message when no notes are available
+  Displays a friendly message when no notes are available.
 
 ## State Explanation
 
